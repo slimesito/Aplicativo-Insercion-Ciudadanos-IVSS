@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px 100px;
+    z-index: 99;
+    background: transparent;
+}
+
+.header .nav {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-left: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('/assets/fondo-ivss.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+.form-box{
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 20px;
+    backdrop-filter: blur(60px);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.cedula_select {
+	float: left;
+	width: 45%;
+}
+
+.cedula {
+	float: right;
+	width: 45%;
+}
+
+.primer_nombre {
+	float: left;
+	width: 45%;
+}
+
+.segundo_nombre {
+	float: right;
+	width: 45%;
+}
+
+.primer_apellido {
+	float: left;
+	width: 45%;
+}
+
+.segundo_apellido {
+	float: right;
+	width: 45%;
+}
+
+.nacionalidad {
+	float: left;
+	width: 45%;
+}
+
+.sexo {
+	float: left;
+	width: 45%;
+}
+
+.estado_civil {
+	float: right;
+	width: 45%;
+}
+
+.fecha_nacimiento {
+	float: left;
+	width: 45%;
+}
+
+.fecha_fallecimiento {
+	float: right;
+	width: 45%;
+}
+
+.rif {
+	float: left;
+	width: 45%;
+}
+
+.condicion_zurdo {
+	float: right;
+	width: 45%;
+}
+
+.id_ocupacion {
+	float: left;
+	width: 45%;
+}
+
+.id_catastro {
+	float: right;
+	width: 45%;
+}
+
+.telefono_hab {
+	float: left;
+	width: 45%;
+}
+
+.telefono_movil {
+	float: right;
+	width: 45%;
+}
+
+.email_principal {
+	float: left;
+	width: 45%;
+}
+
+.email_alterno {
+	float: right;
+	width: 45%;
+}
+
+.estatus_afiliado {
+	float: left;
+	width: 45%;
+}
+
+.cedula_extranjero {
+	float: right;
+	width: 45%;
+}
+
+.id_nacionalidad {
+	float: center;
+	width: 45%;
+}
+
+.btn-register {
+	float: center;
+	width: 25%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: red;
+  -moz-appearance: ;
+  -webkit-appearance: ;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+input[type='text']:focus, [type='date']:focus, textarea:focus {
+	outline: red;
+	
+}
+
+input[type='text'], [type='date'], select, textarea {
+	background: transparent;
+    border: white;
+	border-bottom: solid 2px red;
+	color: black;
+	font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 5px 0 0.875em 0;
+	width: 97%;
+	
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.back{
+    font-size: .9em;
+    color: black;
+    text-align: center;
+    margin: 25px 30px 10px;
+    float: right;
+}
+
+.back p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.back p a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
