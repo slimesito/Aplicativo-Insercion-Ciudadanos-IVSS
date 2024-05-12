@@ -30,7 +30,7 @@ En caso de que el número de Cédula ya se encuentre registrado en la base de da
 
 Formulario para agregar nuevos Ciudadanos:
 
-<p align="center"><a><img src="https://i.ibb.co/V3XVhpY/create-form.png" width="800" alt="Create Form"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/d7XrHKs/Screenshot-2024-05-12-192344.jpg" width="800" alt="Create Form"></a></p>
 
 Una vez guardada la información se arrojará el siguiente mensaje:
 
@@ -38,4 +38,4 @@ Una vez guardada la información se arrojará el siguiente mensaje:
 
 Se muestra la información guardada en la base de datos:
 
-<p align="center"><a><img src="https://i.ibb.co/TgnL0s8/uploaded-data-2.png" width="800" alt="Updated Data 2"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/c2s14RC/Screenshot-2024-05-12-191914.jpg" width="800" alt="Updated Data 2"></a></p>
