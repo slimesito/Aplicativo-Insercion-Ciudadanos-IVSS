@@ -16,7 +16,7 @@ Esta aplicación es una herramienta integral diseñada específicamente para los
 
 <p align="center"><a><img src="https://i.ibb.co/wdQkjP1/search.png" width="400" alt="Search"></a></p>
 
-<p align="center"><a><img src="https://i.ibb.co/p1KGDqk/search-1.png" width="800" alt="Show"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/c2s14RC/Screenshot-2024-05-12-191914.jpg" width="800" alt="Show"></a></p>
 
 En caso de que el número de Cédula ya se encuentre registrado en la base de datos la aplicación arrojará el siguiente error:
 
